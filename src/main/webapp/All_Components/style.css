@@ -1,0 +1,72 @@
+.bg-custom{
+	background-color:#303f9f;
+}
+.navbar .nav-item:hover .nav-link{
+	background-color:white;
+	color:#303f9f;
+	border-radius:15px;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: auto;
+	margin: auto;
+	font-family: Arial, sans-serif;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	background-color: #fff;
+	transition: box-shadow 0.3s;
+}
+
+card:hover {
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+		background-color: #e8dfe4;
+	
+}
+ .tooltip-custom {
+            --bs-tooltip-bg: #333; /* Background color */
+            --bs-tooltip-color: #fff; /* Text color */
+            --bs-tooltip-border-radius: 5px; /* Border radius */
+            --bs-tooltip-padding-x: 10px; /* Horizontal padding */
+            --bs-tooltip-padding-y: 10px; /* Vertical padding */
+            --bs-tooltip-opacity: 1; /* Tooltip opacity */
+            --bs-tooltip-arrow-display: block; /* Arrow display */
+        }
+
+        .tooltip-custom .tooltip-inner {
+            background-color: var(--bs-tooltip-bg);
+            color: var(--bs-tooltip-color);
+            border-radius: var(--bs-tooltip-border-radius);
+            padding: var(--bs-tooltip-padding-y) var(--bs-tooltip-padding-x);
+        }
+
+        .tooltip-custom .tooltip-arrow::before {
+            border-top-color: var(--bs-tooltip-bg);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .btn-black {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-black:hover {
+            background-color: #444;
+            color: #fff;
+        }
